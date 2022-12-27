@@ -8,13 +8,18 @@ const Home = () => {
     const topics=quiz["data"];
     console.log(topics);
     return (
-        <div className="mx-5 mt-6">
+        <div className="mx-5 px-5 mt-6">
             <h2>Home</h2>
-            <p>
-                This a specialized quiz center for aspiring developers. Here we offer quizes to test your abilities in 4 key technologies. First of all you can test your overall front end skills with the React quiz. You can also test your JavaScript and CSS knowledge with respective quizes for those technologies. Finally you can also sit for Git quiz to assess your source management knowledge.
-            </p>
-            <img src="" alt=""/>
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-5">
+            <div className='d-flex flex-column flex-sm-column flex-md-row align-items-center'>
+                <img className="img-fluid rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJfYokFN6RfV0jLd2kpbmcTZHhdtvhE8A_Q&usqp=CAU" alt=""/>
+                <p className='p-4'>
+                    This a specialized quiz center for aspiring developers. Here we offer quizes to test your abilities in 4 key technologies. First of all you can test your overall front end skills with the React quiz. You can also test your JavaScript and CSS knowledge with respective quizes for those technologies. Finally you can also sit for Git quiz to assess your source management knowledge.
+                </p>
+                
+                 
+                
+            </div> 
+            <div className="mt-4 row row-cols-1 row-cols-sm-2 row-cols-md-4 g-5">
                 {
                     topics.map(topic=><Course key={topic.id} topic={topic}></Course>)
                 }
@@ -27,7 +32,7 @@ const Home = () => {
 export default Home;
 
 
-
+// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJfYokFN6RfV0jLd2kpbmcTZHhdtvhE8A_Q&usqp=CAU
 
 {/*
 <div className="card" style={{width: 18+'rem'}}>

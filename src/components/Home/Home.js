@@ -8,7 +8,7 @@ const Home = () => {
     const topics=quiz["data"];
     console.log(topics);
     return (
-        <div className="mx-5 px-5 mt-6">
+        <div className="m-5 px-5 mt-6">
             <h2>Home</h2>
             <div className='d-flex flex-column flex-sm-column flex-md-row align-items-center'>
                 <img className="img-fluid rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJfYokFN6RfV0jLd2kpbmcTZHhdtvhE8A_Q&usqp=CAU" alt=""/>

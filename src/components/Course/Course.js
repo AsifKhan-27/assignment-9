@@ -9,7 +9,7 @@ const Course = ({topic}) => {
             <div className="card-body">
               <h5 className="card-title">{name}</h5>
               <p className="card-text">Total: {total}</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
+              <a href="#" className="btn btn-primary">Take Quiz</a>
             </div>
           </div>
         </div>  

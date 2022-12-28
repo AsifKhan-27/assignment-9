@@ -6,11 +6,13 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import Quiz from './components/Quiz/Quiz';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   const router=createBrowserRouter([
     {
       path:'/',
+      errorElement:<ErrorPage></ErrorPage>,
       element:<Main></Main>,
       children: [
         {

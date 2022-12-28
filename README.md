@@ -1,6 +1,6 @@
 Quiz Masters Website
 
-Live LinK:
+Live Link:
 
 
 

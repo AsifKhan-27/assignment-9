@@ -20,6 +20,7 @@ function App() {
         },
         {
           path:'/quiz/:id',
+          // loader: ()=>fetch(`https://openapi.programming-hero.com/api/quiz/${id}`),
           element:<Quiz></Quiz>
         },
         {

@@ -7,17 +7,6 @@ const Home = () => {
     const quizTopics=useLoaderData();
     const topics=quizTopics["data"];    
     
-    // const openQuiz=()=>{
-        // console.log('btn clicked')
-    // }
-
-    // const [quiz, setQuiz]=useState([]);
-    // useEffectt( ()=>{
-        // fetch('https://openapi.programming-hero.com/api/quiz/2')
-        // .then(res=>res.json())
-        // .then(data=>setQuiz(data))
-    // }, []);
-    
     return (
         <div className="m-5 px-5 mt-6">
             <div className='d-flex flex-column flex-sm-column flex-md-row align-items-center'>

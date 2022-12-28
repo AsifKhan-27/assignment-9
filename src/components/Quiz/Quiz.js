@@ -17,7 +17,7 @@ const Quiz = () => {
     // console.log(quizes)
     const name=quizes.data?.name;
     const questions=quizes.data?.questions;
-    console.log(questions)
+    // console.log(questions)
     return (
         <div>
             <h2 className='mt-3 mb-4'>Quiz of {name}</h2>

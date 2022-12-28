@@ -10,9 +10,9 @@ const Statistics = () => {
     // for (let topic in topics){
         // data.push(topic.total);
     // }
-    console.log(data);
+    // console.log(data);
     return (
-        <div>
+        <div className='w-75 mx-auto'> 
             <h2 className='mb-5'>Statistics</h2>
             <LineChart className='mx-auto mt-4' width={500} height={300} data={topics}>
                 <Line type="monotone" dataKey="total" stroke="#82ca9d" />

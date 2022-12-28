@@ -20,7 +20,7 @@ const Quiz = () => {
     console.log(questions)
     return (
         <div>
-            <h2>Quiz of {name}</h2>
+            <h2 className='mt-3 mb-4'>Quiz of {name}</h2>
             {
                 questions?.map(ques=><Question key={ques.id} ques={ques}></Question>)
             }

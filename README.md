@@ -1,6 +1,6 @@
 Quiz Masters Website
 
-Live Link:
+Live Link: https://shimmering-kheer-88595e.netlify.app/
 
 
 
